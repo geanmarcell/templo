@@ -1,0 +1,91 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f9ff;
+    color: #333;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #0088cc;
+    color: #fff;
+    padding: 10px;
+}
+
+.title {
+    color: white;
+}
+
+.small-font {
+    font-size: 10px;
+}
+
+.container {
+    overflow: hidden;
+}
+
+.image {
+    float: left;
+    margin-right: 20px;
+}
+
+.text {
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos do conteúdo principal */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #0088cc;
+}
+
+p {
+    line-height: 1.5;
+}
+
+a {
+    color: #0088cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para dispositivos com largura até 600px */
+@media (max-width: 600px) {
+  /* Estilos específicos para dispositivos móveis */
+}
+
+/* Estilos para dispositivos com largura acima de 600px */
+@media (min-width: 601px) {
+  /* Estilos específicos para desktops */
+}
+
