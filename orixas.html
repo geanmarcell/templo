@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Orixás na Religião</title>
+    <title>Templo de Umbanda Caboclo Rompe Mato e Cabocla Jurema</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="minify.js"></script>
     <script src="bloqueio.js"></script>
@@ -56,20 +56,24 @@
         <section class="orixas">
             <h2>Orixás</h2>
             <ul>
-                <li><a href="oxala.html">Oxalá</a></li>
-                <li><a href="iemanja.html">Iemanjá</a></li>
-                <li><a href="ogum.html">Ogum</a></li>
-                <li><a href="xango.html">Xangô</a></li>
-                <li><a href="oxossi.html">Oxóssi</a></li>
-                <li><a href="iansa.html">Iansã</a></li>
-                <li><a href="oba.html">Obá</a></li>
-                <li><a href="nana.html">Nanã</a></li>
-                <li><a href="oxum.html">Oxum</a></li>
-                <li><a href="exu.html">Exu</a></li>
+                <li><a href="oxala.html" onclick="abrirEmJanela(this.href); return false;">Oxalá</a></li>
+                <li><a href="iemanja.html" onclick="abrirEmJanela(this.href); return false;">Iemanjá</a></li>
+                <li><a href="ogum.html" onclick="abrirEmJanela(this.href); return false;">Ogum</a></li>
+                <li><a href="xango.html" onclick="abrirEmJanela(this.href); return false;">Xangô</a></li>
+                <li><a href="oxossi.html" onclick="abrirEmJanela(this.href); return false;">Oxóssi</a></li>
+                <li><a href="iansa.html" onclick="abrirEmJanela(this.href); return false;">Iansã</a></li>
+                <li><a href="oba.html" onclick="abrirEmJanela(this.href); return false;">Obá</a></li>
+                <li><a href="nana.html" onclick="abrirEmJanela(this.href); return false;">Nanã</a></li>
+                <li><a href="oxum.html" onclick="abrirEmJanela(this.href); return false;">Oxum</a></li>
+                <li><a href="exu.html" onclick="abrirEmJanela(this.href); return false;">Exu</a></li>
             </ul>
         </section>
     </main>
-
+    <script>
+        function abrirEmJanela(url) {
+            window.open(url, "novaJanela", "width=1200,height=600");
+        }
+    </script>
     <footer>
         <center><p style="font-size: 10px;">&copy; 2023 Todos os direitos reservados by Gean Marcell.</p></center>
     </footer>
